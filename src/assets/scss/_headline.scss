@@ -1,0 +1,26 @@
+.headline {
+  font-weight: 300;
+  font-size: 2.875rem;
+  color: $black;
+
+  &--light {
+    font-weight: 100;
+  }
+
+  &--top-margin {
+    margin-top: 1rem;
+    @media screen and (min-width: 40em) {
+      margin-top: 3.875rem;
+    }
+  }
+}
+
+.headline--light {
+  font-weight: 100;
+}
+
+
+.center h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
