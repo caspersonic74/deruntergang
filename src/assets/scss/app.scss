@@ -9,6 +9,8 @@
 @import 'articles';
 @import 'testimonial';
 @import 'social';
+@import 'contact';
+@import 'space';
 @import 'delphi-footer';
 @import 'foundation';
 @import 'motion-ui';
@@ -56,7 +58,7 @@
 // @include foundation-float-classes;
 @include foundation-flex-classes;
 
-@include foundation-prototype-classes;
+//@include foundation-prototype-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;

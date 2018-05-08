@@ -22,7 +22,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       transition: color 0.15s ease-in;
 
       &:hover {
-        color: lighten($topbar-responsive-bg, 60%);
+        color: red;
       }
 
       @media screen and (max-width: 39.9375em) {
